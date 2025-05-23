@@ -1,0 +1,9 @@
+{
+  "input_file": "data/input.csv",
+  "steps": [
+    {"type": "filter", "column": "age", "operator": ">", "value": 30},
+    {"type": "add_column", "name": "status", "value": "active"},
+    {"type": "drop_column", "name": "temp"}
+  ],
+  "output_file": "data/output.csv"
+}
